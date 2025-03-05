@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sagar's Resume</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 20px; padding: 20px; }
+        .container { max-width: 800px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0px 0px 10px #ccc; }
+        h1, h2 { color: #333; }
+        .section { margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #333; color: white; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sagar</h1>
+        <p><strong>Undergrad Computer Science Student</strong></p>
+        <p>Email: <a href="mailto:tanwarsagarrobotics2274@gmail.com">tanwarsagarrobotics2274@gmail.com</a></p>
+        <p>Phone: <a href="tel:+917027472121">+91 7027472121</a></p>
+        <p>Location: Palwal, Haryana, India</p>
+        <hr>
+        
+        <div class="section">
+            <h2>Experience</h2>
+            <table>
+                <tr><th>Role</th><th>Company</th><th>Duration</th></tr>
+                <tr><td>Student Intern</td><td>IBM</td><td>Nov 2019</td></tr>
+                <tr><td>Manager for Content Creation</td><td>Schmid Media</td><td>Jul 2023 - Jan 2024</td></tr>
+                <tr><td>Owner</td><td>Amplean Crew</td><td>Jan 2023 - Ongoing</td></tr>
+            </table>
+        </div>
+        
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <p>Python, C++, AI & ML, App Development, Web Development, Video Editing, Forex Trading, Data Analytics</p>
+        </div>
+        
+        <div class="section">
+            <h2>Projects</h2>
+            <table>
+                <tr><th>Project</th><th>Description</th></tr>
+                <tr><td>Gaming Tournament App</td><td>A Firebase-based app for managing gaming events.</td></tr>
+                <tr><td>Stock Prediction Model</td><td>Short-term trend prediction using RNN.</td></tr>
+            </table>
+        </div>
+        
+        <div class="section">
+            <h2>Education</h2>
+            <table>
+                <tr><th>Degree</th><th>Institution</th><th>Duration</th></tr>
+                <tr><td>B.Tech Computer Science (AI & ML)</td><td>Galgotias University</td><td>2022 - 2026</td></tr>
+                <tr><td>High School</td><td>Golaya Progressive Public School</td><td>2008 - 2022</td></tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
