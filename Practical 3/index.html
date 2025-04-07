@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Implementation Methods</title>
+    
+    <!-- Method 1: Internal CSS using <style> tag -->
+    <style>
+        /* Internal CSS styles */
+        .internal-css {
+            background-color: lightblue;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        h2 {
+            color: navy;
+        }
+    </style>
+    
+    <!-- Method 3: External CSS using <link> tag -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Practical 3</h1>
+    <div class="internal-css">
+        <h2>Method 1: Internal CSS</h2>
+        <p>This section is styled using internal CSS with a &lt;style&gt; tag in the head section.</p>
+    </div>
+    <div style="background-color: lightpink; padding: 15px; margin: 10px; border-radius: 5px;">
+        <h2>Method 2: Inline CSS</h2>
+        <p>This section is styled using inline CSS with the style attribute.</p>
+    </div>
+    <div class="external-css">
+        <h2>Method 3: External CSS</h2>
+        <p>This section is styled using an external CSS file linked with the &lt;link&gt; tag.</p>
+    </div>
+</body>
+</html> 

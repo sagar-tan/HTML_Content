@@ -1,0 +1,14 @@
+/* External CSS styles */
+.external-css {
+    background-color: lightgreen;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+
+/* This style affects all paragraph elements in sections with the external-css class */
+.external-css p {
+    color: darkgreen;
+    font-weight: bold;
+} 
